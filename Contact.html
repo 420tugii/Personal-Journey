@@ -21,16 +21,52 @@
     </nav>
   </header>
   <main>
-    <form onsubmit="return validateForm()">
-      <label>Name:</label><input type="text" id="name" required><br>
-      <label>Email:</label><input type="email" id="email" required><br>
-      <label>Message:</label><textarea id="message" required></textarea><br>
-      <button type="submit">Send</button>
-    </form>
-    <p>Email: joshuatugi@gmail.com</p>
-    <p>GitHub: <a href="https://github.com/420tugii" target="_blank">github.com/420.tugii</a></p>
+    <section>
+      <h2>Get in Touch With Me!!</h2>
+      <form class="contact-form" onsubmit="return validateForm()">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required placeholder="Your Name">
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" required placeholder="your@gmail.com">
+        
+        <label for="message">Message:</label>
+        <textarea id="message" required placeholder="Type your message here..."></textarea>
+        
+        <button type="submit">Send</button>
+      </form>
+    </section>
+    <section>
+      <h2>Other Ways to Reach Me!!</h2>
+      <ul>
+        <li>
+          <strong>Email:</strong>
+          <a href="mailto:joshuatugi@gmail.com">joshuatugi@gmail.com</a>
+        </li>
+        <li>
+          <strong>GitHub:</strong>
+          <a href="https://github.com/420tugii" target="_blank">github.com/420tugii</a>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>Follow Me</h2>
+      <ul>
+        <li>
+          <strong>Instagram:</strong>
+          <a href="https://www.instagram.com/420.tugii/?hl=en#" target="_blank">420.tugii.com</a>
+        </li>
+        <li>
+          <strong>Twitter:</strong>
+          <a href="https://x.com/tugiiiz" target="_blank">@tugiiiz</a>
+        </li>
+      </ul>
+    </section>
   </main>
-  <footer><p>&copy; 2025 JOSHUA TUGI'S LIFE</p></footer>
+  <footer>
+    <p>&copy; 2025 JOSHUA TUGI'S LIFE</p>
+  </footer>
+  <script src="script.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
