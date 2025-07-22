@@ -77,3 +77,8 @@ footer {
 header h1, footer h1, header .title, footer .title {
   text-decoration: underline;
 }
+
+section img {
+  display: block;
+  margin: 0 auto;
+}
