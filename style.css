@@ -1,0 +1,79 @@
+body, html, nav, main, p, span, a, li, ul {
+  font-family: 'Calibri', Arial, sans-serif;
+}
+
+header, footer, h1, h2, h3, h4, h5, h6 {
+  font-style: italic;
+  font-family: 'Calibri', Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: 
+    url('https://images.pexels.com/photos/33075233/pexels-photo-33075233.jpeg') fixed, /* subtle texture */
+    linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover, cover;
+  color: #222;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header, footer {
+  color: #fff;
+  padding: 1.5em 1em;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  letter-spacing: 1px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  margin: 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+nav a:hover, nav a:focus {
+  background: #003366;
+}
+
+main {
+  flex: 1;
+  padding: 2em;
+  max-width: 900px;
+  margin: 2em auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+}
+
+/* Make footer stick to the bottom of the page */
+html, body {
+  height: 100%;
+}
+
+footer {
+  margin-top: 0;
+  font-size: 1rem;
+  opacity: 0.95;
+  /* Optional: add a slight shadow for separation */
+  box-shadow: 0 -2px 8px rgba(0,0,0,0.04);
+  position: relative;
+}
+
+header h1, footer h1, header .title, footer .title {
+  text-decoration: underline;
+}
