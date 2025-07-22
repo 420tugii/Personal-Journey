@@ -47,7 +47,7 @@ nav a {
 }
 
 nav a:hover, nav a:focus {
-  background: #0055a5;
+  background: lab(33.98% 57.83 48.2 / 0.384);
   color: #e0eafc;
   box-shadow: 0 2px 8px rgba(0,85,165,0.15);
 }
