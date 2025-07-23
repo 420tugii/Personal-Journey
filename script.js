@@ -28,7 +28,7 @@ window.onload = function () {
 
   // Only show greeting on index.html and Contact.html
   const path = window.location.pathname.toLowerCase();
-  if (path.endsWith("index.html") || path.endsWith("contact.html")) {
+  if (path.startsWith("index.html") || path.endsWith("contact.html")) {
     document.querySelector("main").prepend(greeting);
   }
 };
